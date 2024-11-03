@@ -15,8 +15,8 @@
 int	ft_write_nbr(int num)
 {
 	char	digits[32];
-	int		size;
-	int		idx;
+	int	size;
+	int	idx;
 
 	idx = 0;
 	size = 0;
@@ -40,7 +40,7 @@ int	ft_write_nbr(int num)
 int	ft_write_nbr_u(unsigned int num)
 {
 	char	digits[32];
-	int		idx;
+	int	idx;
 
 	if (!num)
 		return (ft_write_chr('0'));
