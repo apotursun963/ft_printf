@@ -23,7 +23,6 @@
 
 int	ft_printf(const char *str, ...);
 int	ft_type(char format, va_list args);
-
 int	ft_write_chr(char chr);
 int	ft_write_str(char *str);
 int	ft_write_nbr(int num);
