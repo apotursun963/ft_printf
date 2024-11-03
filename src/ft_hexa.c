@@ -15,8 +15,8 @@
 int	ft_write_hexa(unsigned int num, char type)
 {
 	char	hex_digits[32];
-	int		left;
-	int		idx;
+	int	left;
+	int	idx;
 
 	if (!num)
 		return (ft_write_chr('0'));
@@ -38,7 +38,7 @@ int	ft_write_hexa(unsigned int num, char type)
 int	ft_base(unsigned long num)
 {
 	char	hex_digits[32];
-	int		idx;
+	int	idx;
 
 	if (!num)
 		return (ft_write_chr('0'));
